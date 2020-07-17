@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+## 我是pi-dal🪐
+
 - 🔭 技能: 数学 物理 Python 
 - 🌱 正在学习: vue react django-rest-framework
 - 💬 联系我: pi-dal@foxmail.com
