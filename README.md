@@ -1,12 +1,6 @@
 ### Hi there 👋
 
-## 我是pi-dal
-
-<br/>
-<a href="https://twitter.com/pi-dal20">
-  <img align="left" alt="Hemant Joshi| Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simplae-icons@v3/icons/twitter.svg" />
-</a>
-<br />
+## 我是pi-dal 
 
 - 🔭 技能: 数学 物理 Python 
 - 🌱 正在学习: vue react django-rest-framework
