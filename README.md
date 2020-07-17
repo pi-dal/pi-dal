@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-## 我是pi-dal 
+<b>我是pi-dal</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px">
 
 - 🔭 技能: 数学 物理 Python 
 - 🌱 正在学习: vue react django-rest-framework
