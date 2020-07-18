@@ -2,6 +2,8 @@
 
 <b>我是pi-dal</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px">
 
+###### 编程爱好者,热爱Python,Django,JavaScript,Vue
+
 - 🔭 爱好: 数学 物理 Python 
 - 🌱 正在学习: vue react django-rest-framework
 - 💬 联系我: pi-dal@foxmail.com
