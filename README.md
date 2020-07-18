@@ -6,8 +6,8 @@
 - 🌱 正在学习: vue react django-rest-framework
 - 💬 联系我: pi-dal@foxmail.com
 - 📫 找到我: https://blog.pi-dal.com/
+- ⚡ 特长:
 
-##### 特长:
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
