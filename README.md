@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-<b>我是pi-dal</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px">
+<b>我是<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px">
 
-###### 编程爱好者,热爱Python,Django,JavaScript,Vue
+_编程爱好者,热爱Python,Django,JavaScript,Vue_
 
 - 🔭 爱好: 数学 物理 Python 
 - 🌱 正在学习: vue react django-rest-framework
