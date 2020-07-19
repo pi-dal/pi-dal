@@ -26,11 +26,6 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 
 <!--START_SECTION:waka-->
 ```text
-Week #29 : July 13 - 18
-
-HTML        44 mins             ██████████████████████░░░   87.74% 
-YAML        4 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   8.88% 
-Other       1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   3.38% 
-Git Config  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
+HTML        8 mins              █████████████████████████   100.00 %
 ```
 <!--END_SECTION:waka-->
