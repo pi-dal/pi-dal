@@ -26,8 +26,10 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 
 <!--START_SECTION:waka-->
 ```text
-Other        1 hr 42 mins    ███████████████████░░░░░░   76.36 % 
-Python       31 mins         ██████░░░░░░░░░░░░░░░░░░░   23.62 % 
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
+Other    4 hrs 47 mins   ██████████████████████░░░   88.50 % 
+Python   33 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   10.44 % 
+Vue.js   2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.84 % 
+HTML     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
+TOML     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
 ```
 <!--END_SECTION:waka-->
