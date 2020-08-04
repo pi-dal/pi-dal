@@ -22,7 +22,7 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![Arduino](https://img.shields.io/badge/-Arduino-black?style=flat-square&logo=Arduino&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 
-![pi-dal's github stats](https://github-readme-stats.vercel.app/api/?username=pi-dal&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![pi-dal's github stats](https://github-readme-stats.vercel.app/api?username=pi-dal&show_icons=true&theme=tokyonight&count_private=true)
 
 <!--START_SECTION:waka-->
 ```text
