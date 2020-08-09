@@ -2,6 +2,8 @@
 
 <b>我是<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px">
 
+![Github follower](https://img.shields.io/badge/dynamic/json?color=black&label=Github%20follower&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dpi-dal)
+
 _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 
 - 🔭 爱好: 数学 物理 Python 
