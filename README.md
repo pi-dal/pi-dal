@@ -24,6 +24,8 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![Arduino](https://img.shields.io/badge/-Arduino-black?style=flat-square&logo=Arduino&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 
+#### 我的个人信息:
+
 [![pi-dal's github stats](https://github-readme-stats.vercel.app/api?username=pi-dal&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/pi-dal)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
