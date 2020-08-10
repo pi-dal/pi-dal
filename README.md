@@ -4,9 +4,6 @@
 
 ![Twitter | Github followers](https://img.shields.io/badge/dynamic/json?color=yellow&label=Twitter%20%7C%20Github%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtwitter%26queryKey%3Dpidal20%26source%3Dgithub%26queryKey%3Dpi-dal)
 
-<div class="github-card" data-github="pi-dal" data-width="400" data-height="153" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-
 _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 
 - 🔭 爱好: 数学 物理 Python 
