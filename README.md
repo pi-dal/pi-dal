@@ -31,4 +31,52 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
 
 <!--START_SECTION:waka-->
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I've%20written-1.8%20million%20Lines%20of%20code-blue)
+
+**🐱 My GitHub Data** 
+
+> 🏆 213 Contributions in year 2020
+ > 
+> 📦 Used 110.5 kB in GitHub's Storage 
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 17 Public Repositories 
+ > 
+> 🔑 2 Owned Private Repositories 
+
+**I'm an early 🐤** 
+
+```text
+🌞 Morning    68 commits     ███████████░░░░░░░░░░░░░░   43.87% 
+🌆 Daytime    51 commits     ████████░░░░░░░░░░░░░░░░░   32.9% 
+🌃 Evening    32 commits     █████░░░░░░░░░░░░░░░░░░░░   20.65% 
+🌙 Night      4 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.58%
+
+```
+
+
+📊 **This week I spent my time on** 
+
+```text
+⌚︎ Timezone: Asia/Shanghai
+
+💬 Languages: 
+Other                    5 hrs 18 mins       ██████████████████░░░░░░░   75.37% 
+YAML                     42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   9.99% 
+JavaScript               24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.81% 
+EJS                      16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.99% 
+Markdown                 7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.76%
+
+🔥 Editors: 
+Zsh                      5 hrs 17 mins       ██████████████████░░░░░░░   75.26% 
+VS Code                  1 hr 44 mins        ██████░░░░░░░░░░░░░░░░░░░   24.74%
+
+```
+
+**Timeline**
+
+![Chart not found](https://github.com/pi-dal/pi-dal/blob/master/charts/bar_graph.png) 
+
+
 <!--END_SECTION:waka-->
