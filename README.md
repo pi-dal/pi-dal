@@ -31,8 +31,6 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-88-blue)
-
 **🐱 My GitHub Data** 
 
 > 🏆 213 Contributions in year 2020
@@ -71,8 +69,6 @@ Sunday       9 commits      █░░░░░░░░░░░░░░░░�
 📊 **This week I spent my time on** 
 
 ```text
-⌚︎ Timezone: Asia/Shanghai
-
 💬 Languages: 
 Other                    5 hrs 18 mins       ██████████████████░░░░░░░   75.37% 
 YAML                     42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   9.99% 
@@ -91,9 +87,6 @@ frontend                 2 mins              ░░░░░░░░░░░�
 pi-dal-website           2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.66% 
 GitHubPageHub            1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.47%
 
-💻 Operating Systems: 
-Mac                      7 hrs 2 mins        █████████████████████████   100.0%
-
 ```
 
 **I mostly code in CSS** 
@@ -104,10 +97,6 @@ JavaScript               2 repos             ███████████�
 
 ```
 
-
-**Timeline**
-
-![Chart not found](https://github.com/pi-dal/pi-dal/blob/master/charts/bar_graph.png) 
 
 
 <!--END_SECTION:waka-->
