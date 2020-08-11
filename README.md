@@ -39,7 +39,7 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
  > 
 > 💼 Opted to Hire
  > 
-> 📜 18 Public Repositories 
+> 📜 17 Public Repositories 
  > 
 > 🔑 2 Owned Private Repositories 
 
