@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-<b>我是<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px">
+<b>我是<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
 
 ![Twitter | Github followers](https://img.shields.io/badge/dynamic/json?color=yellow&label=Twitter%20%7C%20Github%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtwitter%26queryKey%3Dpidal20%26source%3Dgithub%26queryKey%3Dpi-dal)
 
