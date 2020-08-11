@@ -31,11 +31,4 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
 
 <!--START_SECTION:waka-->
-```text
-Other        5 hrs 18 mins   ██████████████████░░░░░░░   75.37 % 
-YAML         42 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   09.99 % 
-JavaScript   24 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.81 % 
-EJS          16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.99 % 
-Markdown     7 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   01.76 %
-```
 <!--END_SECTION:waka-->
