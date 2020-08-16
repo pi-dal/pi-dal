@@ -33,7 +33,7 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 <!--START_SECTION:waka-->
 **🐱 My GitHub Data** 
 
-> 🏆 227 Contributions in year 2020
+> 🏆 227 Contributions in 2020
  > 
 > 📦 Used 110.6 kB in GitHub's Storage 
  > 
@@ -43,7 +43,7 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
  > 
 > 🔑 2 Owned Private Repositories 
 
-**I'm an early 🐤** 
+**I'm an Early 🐤** 
 
 ```text
 🌞 Morning    79 commits     ████████████░░░░░░░░░░░░░   47.59% 
@@ -66,7 +66,7 @@ Sunday       14 commits     ██░░░░░░░░░░░░░░░�
 ```
 
 
-📊 **This week I spent my time on** 
+📊 **This Week I Spent My Time On** 
 
 ```text
 💬 Languages: 
@@ -87,7 +87,7 @@ demo                     0 secs              ░░░░░░░░░░░�
 
 ```
 
-**I mostly code in CSS** 
+**I Mostly Code in CSS** 
 
 ```text
 CSS                      2 repos             ████████████░░░░░░░░░░░░░   50.0% 
