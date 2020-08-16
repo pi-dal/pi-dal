@@ -35,7 +35,7 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 
 > 🏆 225 Contributions in year 2020
  > 
-> 📦 Used 110.5 kB in GitHub's Storage 
+> 📦 Used 110.6 kB in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
