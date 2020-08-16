@@ -31,17 +31,17 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
 
 <!--START_SECTION:waka-->
-**🐱 My GitHub Data** 
+**🐱 My Github Data** 
 
-> 🏆 227 Contributions in 2020
+> 🏆 227 Contributions in the year 2020
  > 
-> 📦 Used 110.6 kB in GitHub's Storage 
+> 📦 110.6 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
-> 📜 19 Public Repositories 
+> 📜 19 Public repositories
  > 
-> 🔑 2 Owned Private Repositories 
+> 🔑 2 Private repositories 
 
 **I'm an Early 🐤** 
 
@@ -52,7 +52,7 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 🌙 Night      4 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.41%
 
 ```
-📅 **I'm Most Productive on Tuesdays** 
+📅 **I'm Most Productive on Tuesday** 
 
 ```text
 Monday       11 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.63% 
@@ -66,15 +66,15 @@ Sunday       14 commits     ██░░░░░░░░░░░░░░░�
 ```
 
 
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spend My Time On** 
 
 ```text
-💬 Languages: 
+💬 Programming Languages: 
 Other                    4 hrs 12 mins       ███████████████████████░░   94.35% 
 YAML                     10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.0% 
 HTML                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.65%
 
-🔥 Editors: 
+🔥 Code Editors: 
 Zsh                      4 hrs 12 mins       ███████████████████████░░   94.35% 
 VS Code                  15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.65%
 
