@@ -1,4 +1,6 @@
-<h2 align='center'>pi-dal濾</center>
+<center>
+<h2>🐍pi-dal🐳
+ 
 
 <b>我是<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
 
@@ -22,7 +24,8 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![Arduino](https://img.shields.io/badge/-Arduino-black?style=flat-square&logo=Arduino&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
+[![Arduino](https://img.shields.io/badge/-Arduino-black?style=flat-square&logo=Arduino&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)9
+</center>
 
 #### 我的个人信息:
 
@@ -46,22 +49,22 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 **I'm an early 🐤** 
 
 ```text
-🌞 Morning    76 commits     ███████████░░░░░░░░░░░░░░   46.63% 
-🌆 Daytime    51 commits     ███████░░░░░░░░░░░░░░░░░░   31.29% 
-🌃 Evening    32 commits     █████░░░░░░░░░░░░░░░░░░░░   19.63% 
-🌙 Night      4 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.45%
+🌞 Morning    74 commits     ███████████░░░░░░░░░░░░░░   45.96% 
+🌆 Daytime    51 commits     ████████░░░░░░░░░░░░░░░░░   31.68% 
+🌃 Evening    32 commits     █████░░░░░░░░░░░░░░░░░░░░   19.88% 
+🌙 Night      4 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.48%
 
 ```
 📅 **I'm Most Productive on Tuesdays** 
 
 ```text
-Monday       11 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.75% 
-Tuesday      49 commits     ███████░░░░░░░░░░░░░░░░░░   30.06% 
-Wednesday    35 commits     █████░░░░░░░░░░░░░░░░░░░░   21.47% 
-Thursday     27 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.56% 
-Friday       9 commits      █░░░░░░░░░░░░░░░░░░░░░░░░   5.52% 
-Saturday     21 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.88% 
-Sunday       11 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.75%
+Monday       11 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.83% 
+Tuesday      49 commits     ███████░░░░░░░░░░░░░░░░░░   30.43% 
+Wednesday    35 commits     █████░░░░░░░░░░░░░░░░░░░░   21.74% 
+Thursday     27 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.77% 
+Friday       9 commits      █░░░░░░░░░░░░░░░░░░░░░░░░   5.59% 
+Saturday     21 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.04% 
+Sunday       9 commits      █░░░░░░░░░░░░░░░░░░░░░░░░   5.59%
 
 ```
 
