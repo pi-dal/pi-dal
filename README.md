@@ -33,9 +33,9 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 <!--START_SECTION:waka-->
 **🐱 My Github Data** 
 
-> 🏆 261 Contributions in the Year 2020
+> 🏆 262 Contributions in the Year 2020
  > 
-> 📦 132.7 kB Used in Github's Storage 
+> 📦 132.8 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
