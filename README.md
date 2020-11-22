@@ -35,7 +35,7 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 <!--START_SECTION:waka-->
 **🐱 My Github Data** 
 
-> 🏆 300 Contributions in the Year 2020
+> 🏆 298 Contributions in the Year 2020
  > 
 > 📦 135.7 kB Used in Github's Storage 
  > 
