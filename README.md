@@ -2,7 +2,9 @@
 
 <b>I am <a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
 
-![Twitter | Github followers](https://img.shields.io/badge/dynamic/json?color=yellow&label=Twitter%20%7C%20Github%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtwitter%26queryKey%3Dpidal20%26source%3Dgithub%26queryKey%3Dpi-dal)
+![Github Followers](https://img.shields.io/badge/dynamic/json?color=%233C3CC4&label=GitHub%20Followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dpi-dal&logo=github&style=for-the-badge&link=https://github.com/pi-dal/)
+![Twitter Followers](https://img.shields.io/badge/dynamic/json?color=%2333AECC&label=Twitter%20Followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtwitter%26queryKey%3Dpidal20&logo=twitter&style=for-the-badge&link=https://twitter.com/pi-dal/)
+![ZhiHu Followers](https://img.shields.io/badge/dynamic/json?color=%236BE61A&label=ZhiHu%20Followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dpi-dal&logo=zhihu&style=for-the-badge&link=https://zhihu.com/people/pi-dal/)
 
 _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 
