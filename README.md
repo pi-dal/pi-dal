@@ -1,15 +1,17 @@
 <h1 align="center">🐍pi-dal🐳</h2>
 
-<b>我是<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
+<b>I am<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
 
 ![Twitter | Github followers](https://img.shields.io/badge/dynamic/json?color=yellow&label=Twitter%20%7C%20Github%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtwitter%26queryKey%3Dpidal20%26source%3Dgithub%26queryKey%3Dpi-dal)
 
-_编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+_Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+_Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 
-- 🔭 爱好: 数学 物理 Python 
-- 🌱 正在学习: vue react django-rest-framework
-- 💬 联系我: pi-dal@foxmail.com
-- 📫 找到我: https://blog.pi-dal.com/
+
+- 🔭 Hobbies: MathematicHobbies: Mathematics, Physics
+- 🌱 Studying now: vue react django-rest-framwork
+- 💬 Contact: pi-dal@foxmail.com
+- 📫 Find me: https://blog.pi-dal.com/
 - ⚡ 特长:
 
 [![Python](https://img.shields.io/badge/-python-1423A7C?style=flat-square&logo=python&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
@@ -24,7 +26,7 @@ _编程爱好者,热爱Python,Django,JavaScript,Vue_ <img src="https://media.gip
 [![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![Arduino](https://img.shields.io/badge/-Arduino-black?style=flat-square&logo=Arduino&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 
-#### 我的个人信息:
+#### My personal information:
 
 [![pi-dal's github stats](https://github-readme-stats.vercel.app/api?username=pi-dal&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/pi-dal)
 
