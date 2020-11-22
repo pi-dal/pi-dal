@@ -1,12 +1,10 @@
 <h1 align="center">🐍pi-dal🐳</h2>
 
-<b>I am<a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
+<b>I am <a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
 
 ![Twitter | Github followers](https://img.shields.io/badge/dynamic/json?color=yellow&label=Twitter%20%7C%20Github%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtwitter%26queryKey%3Dpidal20%26source%3Dgithub%26queryKey%3Dpi-dal)
 
 _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-_Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-
 
 - 🔭 Hobbies: MathematicHobbies: Mathematics, Physics
 - 🌱 Studying now: vue react django-rest-framwork
