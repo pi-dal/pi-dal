@@ -10,7 +10,7 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 - 🌱 Studying now: vue react django-rest-framwork
 - 💬 Contact: pi-dal@foxmail.com
 - 📫 Find me: https://blog.pi-dal.com/
-- ⚡ 特长:
+- ⚡ Specialty:
 
 [![Python](https://img.shields.io/badge/-python-1423A7C?style=flat-square&logo=python&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
