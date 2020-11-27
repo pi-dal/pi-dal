@@ -32,65 +32,7 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
 
+---
+
 <!--START_SECTION:activity-->
-
-<!--START_SECTION:waka-->
-**🐱 My Github Data** 
-
-> 📦 135.7 kB Used in Github's Storage 
- > 
-> 💼 Opted to Hire
- > 
-> 📜 29 Public Repositories
- > 
-> 🔑 2 Private Repositories 
-
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning    90 commits     ██████████░░░░░░░░░░░░░░░   42.06% 
-🌆 Daytime    75 commits     ████████░░░░░░░░░░░░░░░░░   35.05% 
-🌃 Evening    42 commits     █████░░░░░░░░░░░░░░░░░░░░   19.63% 
-🌙 Night      7 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   3.27%
-
-```
-📅 **I'm Most Productive on Tuesday** 
-
-```text
-Monday       11 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   5.14% 
-Tuesday      53 commits     ██████░░░░░░░░░░░░░░░░░░░   24.77% 
-Wednesday    36 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.82% 
-Thursday     29 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.55% 
-Friday       19 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.88% 
-Saturday     38 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.76% 
-Sunday       28 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.08%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-```
-
-**I Mostly Code in JavaScript** 
-
-```text
-JavaScript               3 repos             ███████████████░░░░░░░░░░   60.0% 
-CSS                      1 repo              █████░░░░░░░░░░░░░░░░░░░░   20.0% 
-SCSS                     1 repo              █████░░░░░░░░░░░░░░░░░░░░   20.0%
-
-```
-
-
-
-<!--END_SECTION:waka-->
+<!--END_SECTION:activity-->
