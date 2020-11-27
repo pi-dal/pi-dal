@@ -30,8 +30,6 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 
 [![pi-dal's github stats](https://github-readme-stats.vercel.app/api?username=pi-dal&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/pi-dal)
 
----
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
 
 ---
