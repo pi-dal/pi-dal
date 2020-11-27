@@ -43,7 +43,7 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 3. ❗️ Opened issue [#87](https://github.com/shidenggui/bloghub/issues/87) in [shidenggui/bloghub](https://github.com/shidenggui/bloghub)
 <!--END_SECTION:activity-->
 
-#   :bulb:Blog posts
+###   :bulb:Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Hexo 搭建博客2⃣️—Hexo主题内容配置](https://blog.pi-dal.com/2020/11/14/Hexo-2/)
 - [Mac终端配置与常用命令行工具](https://blog.pi-dal.com/2020/08/06/Mac-Terminal/)
