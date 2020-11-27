@@ -32,6 +32,8 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact)](https://github.com/pi-dal)
 
+<!--START_SECTION:activity-->
+
 <!--START_SECTION:waka-->
 **🐱 My Github Data** 
 
