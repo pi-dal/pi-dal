@@ -36,9 +36,9 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#54](https://github.com/SukkaW/DisqusJS/issues/54) in [SukkaW/DisqusJS](https://github.com/SukkaW/DisqusJS)
-2. 🗣 Commented on [#12](https://github.com/SukkaW/DisqusJS/issues/12) in [SukkaW/DisqusJS](https://github.com/SukkaW/DisqusJS)
-3. ❗️ Opened issue [#87](https://github.com/shidenggui/bloghub/issues/87) in [shidenggui/bloghub](https://github.com/shidenggui/bloghub)
+1. ❗️ Opened issue [#39](https://github.com/frostming/frostming/issues/39) in [frostming/frostming](https://github.com/frostming/frostming)
+2. ❗️ Opened issue [#38](https://github.com/frostming/frostming/issues/38) in [frostming/frostming](https://github.com/frostming/frostming)
+3. ❗️ Opened issue [#37](https://github.com/frostming/frostming/issues/37) in [frostming/frostming](https://github.com/frostming/frostming)
 <!--END_SECTION:activity-->
 
 ---
