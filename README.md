@@ -2,29 +2,34 @@
 
 <b>I am <a href='https://github.com/pi-dal/'>pi-dal</a></b><img src="https://cdn.jsdelivr.net/gh/TheDudeThatCode/TheDudeThatCode@master/Assets/Developer.gif" width="30px">
 
-![Github Followers](https://img.shields.io/badge/dynamic/json?color=%233C3CC4&label=GitHub%20Followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dpi-dal&logo=github&style=for-the-badge&link=https://github.com/pi-dal/)
-![Twitter Followers](https://img.shields.io/badge/dynamic/json?color=%2333AECC&label=Twitter%20Followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtwitter%26queryKey%3Dpidal20&logo=twitter&style=for-the-badge&link=https://twitter.com/pi-dal/)
-![ZhiHu Followers](https://img.shields.io/badge/dynamic/json?color=%236BE61A&label=ZhiHu%20Followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dpi-dal&logo=zhihu&style=for-the-badge&link=https://zhihu.com/people/pi-dal/)
-
 _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+
+<div align="center">
+
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pi-dal)
+[![](https://img.shields.io/badge/telegram-D14836?color=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/pi-dal)
+[![](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/pidal20)
+[![](https://img.shields.io/badge/Blog-%23FFA500.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://blog.pi-dal.com)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+</div>
 
 - 🔭 Hobbies: MathematicHobbies: Mathematics, Physics
 - 🌱 Studying now: vue react django-rest-framwork
 - 💬 Contact: pi-dal@foxmail.com
 - 📫 Find me: https://blog.pi-dal.com/
-- ⚡ Specialty:
-
-[![Python](https://img.shields.io/badge/-python-1423A7C?style=flat-square&logo=python&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![Vue.js](https://img.shields.io/badge/-Vuejs-black?style=flat-square&logo=vue.js&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker&link=https://githu'9b.com/pi-dal/)](https://github.com/pi-dal/)
-[![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
-[![Arduino](https://img.shields.io/badge/-Arduino-black?style=flat-square&logo=Arduino&link=https://github.com/pi-dal/)](https://github.com/pi-dal/)
 
 #### My personal information:
 
@@ -36,9 +41,9 @@ _Programming enthusiasts, love Python,Django,JavaScript,Vue_ <img src="https://m
 
 ### :zap: Recent Activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#39](https://github.com/frostming/frostming/issues/39) in [frostming/frostming](https://github.com/frostming/frostming)
-2. ❗️ Opened issue [#38](https://github.com/frostming/frostming/issues/38) in [frostming/frostming](https://github.com/frostming/frostming)
-3. ❗️ Opened issue [#37](https://github.com/frostming/frostming/issues/37) in [frostming/frostming](https://github.com/frostming/frostming)
+1. ❗️ Opened issue [#54](https://github.com/SukkaW/DisqusJS/issues/54) in [SukkaW/DisqusJS](https://github.com/SukkaW/DisqusJS)
+2. 🗣 Commented on [#12](https://github.com/SukkaW/DisqusJS/issues/12) in [SukkaW/DisqusJS](https://github.com/SukkaW/DisqusJS)
+3. ❗️ Opened issue [#87](https://github.com/shidenggui/bloghub/issues/87) in [shidenggui/bloghub](https://github.com/shidenggui/bloghub)
 <!--END_SECTION:activity-->
 
 ---
