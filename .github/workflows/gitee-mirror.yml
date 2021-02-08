@@ -2,7 +2,7 @@ name: Mirror GitHub Auto Queried Repos to Gitee
 
 on:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 16 * * *'
 
 jobs:
   run:
