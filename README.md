@@ -17,8 +17,8 @@
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 - [Hexo 搭建博客2⃣️—Hexo主题内容配置](https://blog.pi-dal.com/2020/11/14/Hexo-2/)
-- [Mac终端配置与常用命令行工具](https://blog.pi-dal.com/2020/08/06/Mac-Terminal/)
 - [Hexo 搭建博客1⃣️—Hexo框架构建&Hexo主题配置](https://blog.pi-dal.com/2020/06/27/Hexo-1/)
+- [Mac终端配置与常用命令行工具](https://blog.pi-dal.com/2020/06/06/Mac-Terminal/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
