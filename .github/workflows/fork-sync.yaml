@@ -17,14 +17,3 @@ jobs:
         upstream: babel/babel
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
-        
-    - name: Pull upstream changes
-      id: sync
-      uses: aormsby/Fork-Sync-With-Upstream-action@v2.2
-      with:
-        upstream_repository: panr/hugo-theme-hello-friend
-        upstream_branch: master
-        target_branch: master
-
-    - name: Timestamp
-      run: date
