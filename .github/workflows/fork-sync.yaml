@@ -7,15 +7,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync_with_upstream:
+  fetch-upstream:
     runs-on: ubuntu-latest
-    name: Sync master with upstream latest
-
     steps:
-    - name: Checkout master
-      uses: actions/checkout@v2
+    - uses: actions/checkout@master
+    - name: Fetch Upstream
+      uses: bdougie/fetch-upstream@master
       with:
-        ref: master
+        upstream: babel/babel
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
         
     - name: Pull upstream changes
       id: sync
