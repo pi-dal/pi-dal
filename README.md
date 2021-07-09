@@ -16,7 +16,7 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [我的Mac开发环境设置](https://blog.pi-dal.com/2021/07/工欲善其事，必先利其器。)
+- [我的macOS开发环境设置](https://blog.pi-dal.com/2021/07/工欲善其事，必先利其器。)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
