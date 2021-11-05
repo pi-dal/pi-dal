@@ -16,7 +16,7 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-
+- [树莓派 Arozos 指北](https://blog.pi-dal.com/适用于树莓派的通用Web桌面操作系统)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Languages and Tools:</h3>
