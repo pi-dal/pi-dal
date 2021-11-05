@@ -1,7 +1,7 @@
 name: Latest blog post workflow
 on:
   schedule: # Run workflow automatically
-    - cron: '*/60 * * * *' 
+    - cron: '30 5 * * *' 
   push:
     branches:    
       - master
