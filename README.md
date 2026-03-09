@@ -17,22 +17,22 @@
 ## 📝 Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [如何用四维矢量来解决狭义相对论问题（基础的时空与碰撞的变换）](https://pi-dal.xlog.app/posts/STR-Four-Vector) - 2025-07-20
-- [2023年物竞外出培训—杭州行](https://pi-dal.xlog.app/posts/2023-Hangzhou-Travelling) - 2023-07-27
-- [写给16岁的自己](https://pi-dal.xlog.app/posts/To-My-16-Year-Old-Self) - 2023-04-16
-- [2022湖南之旅](https://pi-dal.xlog.app/posts/2022-Hunan-Travelling) - 2023-04-16
-- [初中生活总结](https://pi-dal.xlog.app/posts/Summary-Of-Junior-High-School-Life) - 2023-04-15
+- [如何用四维矢量来解决狭义相对论问题（电磁学与动力学）](https://pi-dal.com/posts/STR-Four-Vector-Electromagnetism-and-Dynamics) - 2025-10-19
+- [2023年物竞外出培训—杭州行](https://pi-dal.com/posts/2023-Hangzhou-Travelling) - 2023-07-27
+- [写给16岁的自己](https://pi-dal.com/posts/To-My-16-Year-Old-Self) - 2023-04-15
+- [2022湖南之旅](https://pi-dal.com/posts/2022-Hunan-Travelling) - 2022-07-22
+- [初中生活总结](https://pi-dal.com/posts/Summary-Of-Junior-High-School-Life) - 2022-06-28
 - [...](https://pi-dal.com/posts)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📚 Recent Reading Notes
 
 <!-- READING-LIST:START -->
-- [《蒂姆·库克传：苹果公司的反思与商业的未来》读书笔记](https://pi-dal.xlog.app/books/蒂姆-库克传-苹果公司的反思与商业的未来) - 2025-07-07
-- [《创新者的窘境》读书笔记](https://pi-dal.xlog.app/books/创新者的窘境) - 2025-07-07
-- [《Clear Thinking: Turning Ordinary Moments into Extraordinary Results》读书笔记](https://pi-dal.xlog.app/books/clear-thinking-turning-ordinary-moments-into-extraordinary-results) - 2025-07-07
-- [《一九八四（译文经典）》读书笔记](https://pi-dal.xlog.app/books/一九八四-译文经典) - 2025-07-07
-- [《高敏感是种天赋》读书笔记](https://pi-dal.xlog.app/books/高敏感是种天赋) - 2025-07-07
+- [《人间是剧场》读书笔记](https://pi-dal.com/books/人间是剧场) - 2025-08-05
+- [《Empire of AI》读书笔记](https://pi-dal.com/books/empire-of-ai) - 2025-08-03
+- [《看世界（2025年第14期）》读书笔记](https://pi-dal.com/books/看世界（2025年第14期）) - 2025-07-20
+- [《我为何而活：罗素自传（果麦经典）》读书笔记](https://pi-dal.com/books/我为何而活：罗素自传（果麦经典）) - 2025-07-08
+- [《蒂姆·库克传：苹果公司的反思与商业的未来》读书笔记](https://pi-dal.com/books/蒂姆-库克传-苹果公司的反思与商业的未来) - 2025-07-07
 - [...](https://pi-dal.com/books)
 <!-- READING-LIST:END -->
 
