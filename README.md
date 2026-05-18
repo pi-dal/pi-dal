@@ -40,9 +40,7 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pi-dal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pi-dal&layout=compact&theme=tokyonight&hide_border=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=pi-dal&theme=github-compact&hide_border=true&area=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pi-dal&theme=tokyonight&hide_border=true)
 
