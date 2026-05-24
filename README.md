@@ -22,17 +22,22 @@
 - [写给16岁的自己](https://pi-dal.com/posts/To-My-16-Year-Old-Self) - 2023-04-15
 - [2022湖南之旅](https://pi-dal.com/posts/2022-Hunan-Travelling) - 2022-07-22
 - [初中生活总结](https://pi-dal.com/posts/Summary-Of-Junior-High-School-Life) - 2022-06-28
+- [树莓派NAS搭建](https://pi-dal.com/posts/How-To-Build-A-RPI-NAS-Server) - 2022-02-03
+- [树莓派 ArozOS 指北](https://pi-dal.com/posts/ArozOS-RPI-Tutorial) - 2021-10-22
 - [...](https://pi-dal.com/posts)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📚 Recent Reading Notes
 
 <!-- READING-LIST:START -->
-- [《人间是剧场》读书笔记](https://pi-dal.com/books/人间是剧场) - 2025-08-05
-- [《Empire of AI》读书笔记](https://pi-dal.com/books/empire-of-ai) - 2025-08-03
-- [《看世界（2025年第14期）》读书笔记](https://pi-dal.com/books/看世界（2025年第14期）) - 2025-07-20
-- [《我为何而活：罗素自传（果麦经典）》读书笔记](https://pi-dal.com/books/我为何而活：罗素自传（果麦经典）) - 2025-07-08
-- [《蒂姆·库克传：苹果公司的反思与商业的未来》读书笔记](https://pi-dal.com/books/蒂姆-库克传-苹果公司的反思与商业的未来) - 2025-07-07
+- [《为什么伟大不能被计划》读书笔记](https://pi-dal.com/books/为什么伟大不能被计划) - 2026-05-23
+- [《上海交通大学生存手册》读书笔记](https://pi-dal.com/books/上海交通大学生存手册) - 2026-04-29
+- [《局外人》读书笔记](https://pi-dal.com/books/局外人) - 2026-03-22
+- [《金刚经：大乘佛教的根本经典，“经中之王”（国学网原版点注，杨增文审定）》读书笔记](https://pi-dal.com/books/金刚经-大乘佛教的根本经典“经中之王”-国学网原版点注杨增文审定) - 2026-03-08
+- [《全世界的水都会重逢》读书笔记](https://pi-dal.com/books/全世界的水都会重逢) - 2026-02-21
+- [《佛教的见地与修道》读书笔记](https://pi-dal.com/books/佛教的见地与修道) - 2026-02-18
+- [《咸的玩笑》读书笔记](https://pi-dal.com/books/咸的玩笑) - 2026-02-01
+- [《正见》读书笔记](https://pi-dal.com/books/正见) - 2025-11-25
 - [...](https://pi-dal.com/books)
 <!-- READING-LIST:END -->
 

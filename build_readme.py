@@ -14,13 +14,14 @@ class ProfileBuilder:
         self.blog_rss_url = "https://pi-dal.com/blog-feed.xml"
         self.books_rss_url = "https://pi-dal.com/books-feed.xml"
         
-    def fetch_blog_posts(self, limit=5):
-        """Fetch recent blog posts from RSS feed"""
+    def fetch_blog_posts(self, limit=8):
+        """Fetch blog posts from RSS feed"""
         try:
             feed = feedparser.parse(self.blog_rss_url)
             posts = []
-            
-            for entry in feed.entries[:limit]:
+
+            entries = feed.entries[:limit] if limit else feed.entries
+            for entry in entries:
                 # Debug: print available date fields
                 published_date = entry.get('published', '')
                 if not published_date:
@@ -43,12 +44,12 @@ class ProfileBuilder:
             print(f"Error fetching blog posts: {e}")
             return []
     
-    def fetch_reading_posts(self, limit=5):
+    def fetch_reading_posts(self, limit=8):
         """Fetch recent reading posts from books RSS feed"""
         try:
             feed = feedparser.parse(self.books_rss_url)
             posts = []
-            
+
             for entry in feed.entries[:limit]:
                 # Debug: print available date fields
                 published_date = entry.get('published', '')
