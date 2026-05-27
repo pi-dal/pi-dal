@@ -47,7 +47,7 @@
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=pi-dal&theme=github-compact&hide_border=true&area=true)
 
-![3D Contribution](https://raw.githubusercontent.com/pi-dal/pi-dal/main/profile-3d-contrib/profile-green-animate.svg)
+![3D Contribution](https://raw.githubusercontent.com/pi-dal/pi-dal/master/profile-3d-contrib/profile-green-animate.svg)
 
 ![snake gif](https://github.com/pi-dal/pi-dal/blob/output/github-contribution-grid-snake.svg)
 
