@@ -47,7 +47,9 @@
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=pi-dal&theme=github-compact&hide_border=true&area=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=pi-dal&theme=tokyonight&hide_border=true)
+![3D Contribution](https://raw.githubusercontent.com/pi-dal/pi-dal/main/profile-3d-contrib/profile-green-animate.svg)
+
+![snake gif](https://github.com/pi-dal/pi-dal/blob/output/github-contribution-grid-snake.svg)
 
 </div>
 
@@ -91,8 +93,6 @@ Beyond coding, I'm passionate about:
 ---
 
 <div align="center">
-
-![snake gif](https://github.com/pi-dal/pi-dal/blob/output/github-contribution-grid-snake.svg)
 
 *I am happy, have no ambitions, and am a workaholic without a goal.*
 
