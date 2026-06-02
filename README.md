@@ -17,7 +17,6 @@
 ## 📝 Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [如何用四维矢量来解决狭义相对论问题（电磁学与动力学）](https://pi-dal.com/posts/STR-Four-Vector-Electromagnetism-and-Dynamics) - 2025-10-19
 - [2023年物竞外出培训—杭州行](https://pi-dal.com/posts/2023-Hangzhou-Travelling) - 2023-07-27
 - [写给16岁的自己](https://pi-dal.com/posts/To-My-16-Year-Old-Self) - 2023-04-15
 - [2022湖南之旅](https://pi-dal.com/posts/2022-Hunan-Travelling) - 2022-07-22
@@ -33,11 +32,11 @@
 - [《为什么伟大不能被计划》读书笔记](https://pi-dal.com/books/为什么伟大不能被计划) - 2026-05-23
 - [《六祖坛经（白话版）》读书笔记](https://pi-dal.com/books/六祖坛经-白话版) - 2026-05-19
 - [《从0到1：开启商业与未来的秘密》读书笔记](https://pi-dal.com/books/从0到1-开启商业与未来的秘密) - 2026-05-18
+- [《manual》读书笔记](https://pi-dal.com/books/manual) - 2026-04-29
 - [《上海交通大学生存手册》读书笔记](https://pi-dal.com/books/上海交通大学生存手册) - 2026-04-29
 - [《局外人》读书笔记](https://pi-dal.com/books/局外人) - 2026-03-22
 - [《金刚经：大乘佛教的根本经典，“经中之王”（国学网原版点注，杨增文审定）》读书笔记](https://pi-dal.com/books/金刚经-大乘佛教的根本经典“经中之王”-国学网原版点注杨增文审定) - 2026-03-08
 - [《全世界的水都会重逢》读书笔记](https://pi-dal.com/books/全世界的水都会重逢) - 2026-02-21
-- [《佛教的见地与修道》读书笔记](https://pi-dal.com/books/佛教的见地与修道) - 2026-02-18
 - [...](https://pi-dal.com/books)
 <!-- READING-LIST:END -->
 
