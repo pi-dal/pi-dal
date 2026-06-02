@@ -43,6 +43,20 @@ class ProfileBuilder:
         except Exception as e:
             print(f"Error fetching blog posts: {e}")
             return []
+
+    def fetch_english_titles(self):
+        """Fetch English titles from English RSS feed, keyed by slug"""
+        try:
+            feed = feedparser.parse('https://pi-dal.com/en/feed.xml')
+            titles = {}
+            for entry in feed.entries:
+                # Extract slug from URL (e.g. /en/posts/Slug -> Slug)
+                slug = entry.link.rstrip('/').split('/')[-1]
+                titles[slug] = entry.title
+            return titles
+        except Exception as e:
+            print(f"Error fetching English titles: {e}")
+            return {}
     
     def fetch_reading_posts(self, limit=8):
         """Fetch recent reading posts from books RSS feed"""
@@ -78,6 +92,9 @@ class ProfileBuilder:
         """Generate blog posts section"""
         if not posts:
             return "<!-- BLOG-POST-LIST:START -->\n<!-- No recent posts available -->\n<!-- BLOG-POST-LIST:END -->"
+
+        # Fetch English titles for bilingual display
+        en_titles = self.fetch_english_titles()
         
         content = "<!-- BLOG-POST-LIST:START -->\n"
         for post in posts:
@@ -110,7 +127,16 @@ class ProfileBuilder:
             except:
                 formatted_date = 'Recent'
             
-            content += f"- [{post['title']}]({post['link']}) - {formatted_date}\n"
+            # Build title with English translation if available
+            # Match by extracting slug from URL
+            slug = post['link'].rstrip('/').split('/')[-1]
+            en_title = en_titles.get(slug)
+            if en_title and en_title != post['title']:
+                display_title = f"{post['title']}（{en_title}）"
+            else:
+                display_title = post['title']
+            
+            content += f"- [{display_title}]({post['link']}) - {formatted_date}\n"
         
         # Add ellipsis link to see more posts
         content += "- [...](https://pi-dal.com/posts)\n"
