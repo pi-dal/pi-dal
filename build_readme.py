@@ -8,6 +8,15 @@ import feedparser
 from datetime import datetime, timezone
 import json
 
+BLOG_TITLE_GLOSSES = {
+    "2023-Hangzhou-Travelling": "2023 Physics Olympiad Training Trip — Hangzhou",
+    "To-My-16-Year-Old-Self": "To My 16-Year-Old Self",
+    "2022-Hunan-Travelling": "2022 Hunan Journey",
+    "Summary-Of-Junior-High-School-Life": "Summary of Junior High School Life",
+    "How-To-Build-A-RPI-NAS-Server": "Building a Raspberry Pi NAS",
+    "ArozOS-RPI-Tutorial": "ArozOS on Raspberry Pi — A Guide",
+}
+
 class ProfileBuilder:
     def __init__(self):
         self.github_token = os.getenv('GITHUB_TOKEN')
@@ -44,19 +53,10 @@ class ProfileBuilder:
             print(f"Error fetching blog posts: {e}")
             return []
 
-    def fetch_english_titles(self):
-        """Fetch English titles from English RSS feed, keyed by slug"""
-        try:
-            feed = feedparser.parse('https://pi-dal.com/en/feed.xml')
-            titles = {}
-            for entry in feed.entries:
-                # Extract slug from URL (e.g. /en/posts/Slug -> Slug)
-                slug = entry.link.rstrip('/').split('/')[-1]
-                titles[slug] = entry.title
-            return titles
-        except Exception as e:
-            print(f"Error fetching English titles: {e}")
-            return {}
+    def extract_slug(self, link):
+        """Extract slug from a post URL"""
+        match = re.search(r'/posts/([^/?#]+)', link or '')
+        return match.group(1) if match else None
     
     def fetch_reading_posts(self, limit=8):
         """Fetch recent reading posts from books RSS feed"""
@@ -93,9 +93,6 @@ class ProfileBuilder:
         if not posts:
             return "<!-- BLOG-POST-LIST:START -->\n<!-- No recent posts available -->\n<!-- BLOG-POST-LIST:END -->"
 
-        # Fetch English titles for bilingual display
-        en_titles = self.fetch_english_titles()
-        
         content = "<!-- BLOG-POST-LIST:START -->\n"
         for post in posts:
             # Parse date for better formatting
@@ -127,10 +124,9 @@ class ProfileBuilder:
             except:
                 formatted_date = 'Recent'
             
-            # Build title with English translation if available
-            # Match by extracting slug from URL
-            slug = post['link'].rstrip('/').split('/')[-1]
-            en_title = en_titles.get(slug)
+            # Build title with English translation if available.
+            slug = self.extract_slug(post['link'])
+            en_title = BLOG_TITLE_GLOSSES.get(slug)
             if en_title and en_title != post['title']:
                 display_title = f"{post['title']}（{en_title}）"
             else:
@@ -140,7 +136,6 @@ class ProfileBuilder:
         
         # Add ellipsis link to see more posts
         content += "- [...](https://pi-dal.com/posts)\n"
-        content += "- 语言入口（Locale Links）: [中文（Chinese）](https://pi-dal.com/zh/posts) · [英文（English）](https://pi-dal.com/en/posts) · [日文（Japanese）](https://pi-dal.com/ja/posts)\n"
         content += "<!-- BLOG-POST-LIST:END -->"
         return content
     

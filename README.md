@@ -17,14 +17,13 @@
 ## 📝 Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [2023年物竞外出培训—杭州行](https://pi-dal.com/posts/2023-Hangzhou-Travelling) - 2023-07-27
-- [写给16岁的自己](https://pi-dal.com/posts/To-My-16-Year-Old-Self) - 2023-04-15
-- [2022湖南之旅](https://pi-dal.com/posts/2022-Hunan-Travelling) - 2022-07-22
-- [初中生活总结](https://pi-dal.com/posts/Summary-Of-Junior-High-School-Life) - 2022-06-28
-- [树莓派NAS搭建](https://pi-dal.com/posts/How-To-Build-A-RPI-NAS-Server) - 2022-02-03
-- [树莓派 ArozOS 指北](https://pi-dal.com/posts/ArozOS-RPI-Tutorial) - 2021-10-22
+- [2023年物竞外出培训—杭州行（2023 Physics Olympiad Training Trip — Hangzhou）](https://pi-dal.com/posts/2023-Hangzhou-Travelling) - 2023-07-27
+- [写给16岁的自己（To My 16-Year-Old Self）](https://pi-dal.com/posts/To-My-16-Year-Old-Self) - 2023-04-15
+- [2022湖南之旅（2022 Hunan Journey）](https://pi-dal.com/posts/2022-Hunan-Travelling) - 2022-07-22
+- [初中生活总结（Summary of Junior High School Life）](https://pi-dal.com/posts/Summary-Of-Junior-High-School-Life) - 2022-06-28
+- [树莓派NAS搭建（Building a Raspberry Pi NAS）](https://pi-dal.com/posts/How-To-Build-A-RPI-NAS-Server) - 2022-02-03
+- [树莓派 ArozOS 指北（ArozOS on Raspberry Pi — A Guide）](https://pi-dal.com/posts/ArozOS-RPI-Tutorial) - 2021-10-22
 - [...](https://pi-dal.com/posts)
-- 语言入口（Locale Links）: [中文（Chinese）](https://pi-dal.com/zh/posts) · [英文（English）](https://pi-dal.com/en/posts) · [日文（Japanese）](https://pi-dal.com/ja/posts)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📚 Recent Reading Notes
