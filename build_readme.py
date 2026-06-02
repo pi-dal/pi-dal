@@ -114,6 +114,7 @@ class ProfileBuilder:
         
         # Add ellipsis link to see more posts
         content += "- [...](https://pi-dal.com/posts)\n"
+        content += "- 语言入口（Locale Links）: [中文（Chinese）](https://pi-dal.com/zh/posts) · [英文（English）](https://pi-dal.com/en/posts) · [日文（Japanese）](https://pi-dal.com/ja/posts)\n"
         content += "<!-- BLOG-POST-LIST:END -->"
         return content
     

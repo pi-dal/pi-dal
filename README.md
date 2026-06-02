@@ -24,6 +24,7 @@
 - [树莓派NAS搭建](https://pi-dal.com/posts/How-To-Build-A-RPI-NAS-Server) - 2022-02-03
 - [树莓派 ArozOS 指北](https://pi-dal.com/posts/ArozOS-RPI-Tutorial) - 2021-10-22
 - [...](https://pi-dal.com/posts)
+- 语言入口（Locale Links）: [中文（Chinese）](https://pi-dal.com/zh/posts) · [英文（English）](https://pi-dal.com/en/posts) · [日文（Japanese）](https://pi-dal.com/ja/posts)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📚 Recent Reading Notes
