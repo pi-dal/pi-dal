@@ -19,13 +19,13 @@
 <!-- BLOG-POST-LIST:START -->
 - [知流](https://pi-dal.com/zh/posts/knowledge-flow) - 2026-06-08
 - [知流](https://pi-dal.com/zh/posts/knowledge-flow) - 2026-06-08
-- [2023年物竞外出培训—杭州行（2023 Physics Olympiad Training Trip — Hangzhou）](https://pi-dal.com/zh/posts/2023-Hangzhou-Travelling) - 2023-07-27
-- [2023年物竞外出培训—杭州行（2023 Physics Olympiad Training Trip — Hangzhou）](https://pi-dal.com/zh/posts/2023-Hangzhou-Travelling) - 2023-07-27
-- [写给16岁的自己（To My 16-Year-Old Self）](https://pi-dal.com/zh/posts/To-My-16-Year-Old-Self) - 2023-04-15
-- [写给16岁的自己（To My 16-Year-Old Self）](https://pi-dal.com/zh/posts/To-My-16-Year-Old-Self) - 2023-04-15
-- [2022湖南之旅（2022 Hunan Journey）](https://pi-dal.com/zh/posts/2022-Hunan-Travelling) - 2022-07-22
-- [2022湖南之旅（2022 Hunan Journey）](https://pi-dal.com/zh/posts/2022-Hunan-Travelling) - 2022-07-22
-- [...](https://pi-dal.com/posts)
+- [2023年物竞外出培训—杭州行](https://pi-dal.com/zh/posts/2023-Hangzhou-Travelling) - 2023-07-27
+- [2023年物竞外出培训—杭州行](https://pi-dal.com/zh/posts/2023-Hangzhou-Travelling) - 2023-07-27
+- [写给16岁的自己](https://pi-dal.com/zh/posts/To-My-16-Year-Old-Self) - 2023-04-15
+- [写给16岁的自己](https://pi-dal.com/zh/posts/To-My-16-Year-Old-Self) - 2023-04-15
+- [2022湖南之旅](https://pi-dal.com/zh/posts/2022-Hunan-Travelling) - 2022-07-22
+- [2022湖南之旅](https://pi-dal.com/zh/posts/2022-Hunan-Travelling) - 2022-07-22
+- [...](https://pi-dal.com/zh/posts)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📚 Recent Reading Notes
@@ -39,7 +39,7 @@
 - [《从0到1：开启商业与未来的秘密》读书笔记](https://pi-dal.com/zh/books/从0到1-开启商业与未来的秘密) - 2026-05-18
 - [《manual》读书笔记](https://pi-dal.com/zh/books/manual) - 2026-04-29
 - [《上海交通大学生存手册》读书笔记](https://pi-dal.com/zh/books/上海交通大学生存手册) - 2026-04-29
-- [...](https://pi-dal.com/books)
+- [...](https://pi-dal.com/zh/books)
 <!-- READING-LIST:END -->
 
 ## 📊 GitHub Statistics
