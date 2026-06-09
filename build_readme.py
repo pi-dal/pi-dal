@@ -3,219 +3,153 @@
 
 import os
 import re
-import requests
 import feedparser
-from datetime import datetime, timezone
-import json
+from datetime import datetime
 
 class ProfileBuilder:
     def __init__(self):
         self.github_token = os.getenv('GITHUB_TOKEN')
+        # Main (Chinese) feeds
         self.blog_rss_url = "https://pi-dal.com/blog-feed.xml"
         self.books_rss_url = "https://pi-dal.com/books-feed.xml"
-        
-    def fetch_blog_posts(self, limit=8):
-        """Fetch blog posts from RSS feed"""
-        try:
-            feed = feedparser.parse(self.blog_rss_url)
-            posts = []
+        # English feeds for bilingual title pairing
+        self.blog_en_rss_url = "https://pi-dal.com/en/blog-feed.xml"
+        self.books_en_rss_url = "https://pi-dal.com/en/books-feed.xml"
 
+    def _parse_date(self, published_str):
+        """Try multiple date formats and return YYYY-MM-DD or 'Recent'."""
+        if not published_str:
+            return 'Recent'
+        date_str = re.sub(r'[+-]\d{2}:?\d{2}$', '', published_str)
+        date_str = date_str.replace('Z', '')
+        for fmt in ['%a, %d %b %Y %H:%M:%S %Z', '%a, %d %b %Y %H:%M:%S GMT',
+                     '%Y-%m-%dT%H:%M:%S', '%Y-%m-%d %H:%M:%S', '%a, %d %b %Y %H:%M:%S']:
+            try:
+                return datetime.strptime(date_str.strip(), fmt).strftime('%Y-%m-%d')
+            except ValueError:
+                continue
+        try:
+            return datetime.fromisoformat(date_str.replace('Z', '+00:00')).strftime('%Y-%m-%d')
+        except Exception:
+            return 'Recent'
+
+    def _fetch_feed(self, url, limit=8):
+        """Fetch and parse an RSS feed, returning list of {title, link, published}."""
+        try:
+            feed = feedparser.parse(url)
             entries = feed.entries[:limit] if limit else feed.entries
-            for entry in entries:
-                # Debug: print available date fields
-                published_date = entry.get('published', '')
-                if not published_date:
-                    # Try other common date fields
-                    published_date = entry.get('pubDate', '')
-                if not published_date:
-                    published_date = entry.get('updated', '')
-                    
-                
-                post = {
-                    'title': entry.title,
-                    'link': entry.link,
-                    'published': published_date,
-                    'summary': entry.get('summary', '')[:100] + '...' if entry.get('summary') else ''
-                }
-                posts.append(post)
-            
-            return posts
-        except Exception as e:
-            print(f"Error fetching blog posts: {e}")
-            return []
-    
-    def fetch_reading_posts(self, limit=8):
-        """Fetch recent reading posts from books RSS feed"""
-        try:
-            feed = feedparser.parse(self.books_rss_url)
             posts = []
-
-            for entry in feed.entries[:limit]:
-                # Debug: print available date fields
-                published_date = entry.get('published', '')
-                if not published_date:
-                    # Try other common date fields
-                    published_date = entry.get('pubDate', '')
-                if not published_date:
-                    published_date = entry.get('updated', '')
-                    
-                
-                post = {
+            for entry in entries:
+                published = entry.get('published', '') or entry.get('pubDate', '') or entry.get('updated', '')
+                posts.append({
                     'title': entry.title,
                     'link': entry.link,
-                    'published': published_date,
-                    'summary': entry.get('summary', '')[:100] + '...' if entry.get('summary') else ''
-                }
-                posts.append(post)
-            
+                    'published': published,
+                })
             return posts
         except Exception as e:
-            print(f"Error fetching reading posts: {e}")
+            print(f"Error fetching {url}: {e}")
             return []
-    
+
+    @staticmethod
+    def _normalize_link(link):
+        """Strip locale prefix from a URL for cross-locale matching."""
+        return re.sub(r'/(zh|en|ja)/', '/', link)
+
+    def _build_title_map(self, entries):
+        """Build a dict mapping normalized link → title from a list of entries."""
+        result = {}
+        for e in entries:
+            key = self._normalize_link(e['link'])
+            result[key] = e['title']
+        return result
+
+    def _dedup_and_merge(self, zh_entries, en_entries, limit=8):
+        """
+        Merge zh and en entries by normalized link. Produce bilingual titles
+        "中文标题（English Title）" when EN title exists and differs.
+        Deduplicate by canonical link (first-seen order preserved).
+        """
+        en_titles = self._build_title_map(en_entries)
+        seen = set()
+        result = []
+        for entry in zh_entries:
+            link = entry.get('link', '')
+            key = self._normalize_link(link)
+            if key in seen or not link:
+                continue
+            seen.add(key)
+            en_title = en_titles.get(key)
+            zh_title = entry['title']
+            if en_title and en_title != zh_title and re.search(r'[a-zA-Z]', en_title):
+                display_title = f"{zh_title}（{en_title}）"
+            else:
+                display_title = zh_title
+            entry['display_title'] = display_title
+            result.append(entry)
+            if len(result) >= limit:
+                break
+        return result
+
+    def fetch_blog_posts(self, limit=8):
+        """Fetch Chinese blog posts, paired with English titles."""
+        zh = self._fetch_feed(self.blog_rss_url, limit * 2)
+        en = self._fetch_feed(self.blog_en_rss_url, limit * 2)
+        return self._dedup_and_merge(zh, en, limit)
+
+    def fetch_reading_posts(self, limit=8):
+        """Fetch Chinese reading notes, paired with English titles."""
+        zh = self._fetch_feed(self.books_rss_url, limit * 2)
+        en = self._fetch_feed(self.books_en_rss_url, limit * 2)
+        return self._dedup_and_merge(zh, en, limit)
+
     def generate_blog_section(self, posts):
-        """Generate blog posts section"""
         if not posts:
             return "<!-- BLOG-POST-LIST:START -->\n<!-- No recent posts available -->\n<!-- BLOG-POST-LIST:END -->"
-
         content = "<!-- BLOG-POST-LIST:START -->\n"
-        seen_links = set()
         for post in posts:
-            link = post.get('link', '')
-            if link in seen_links:
-                continue
-            seen_links.add(link)
-            # Parse date for better formatting
-            try:
-                if post['published']:
-                    # Try multiple date formats that xlog might use
-                    date_str = post['published']
-                    # Remove timezone info if present and try parsing
-                    date_str = re.sub(r'[+-]\d{2}:?\d{2}$', '', date_str)
-                    date_str = date_str.replace('Z', '')
-                    
-                    # Try different formats
-                    for fmt in ['%a, %d %b %Y %H:%M:%S %Z', '%a, %d %b %Y %H:%M:%S GMT', '%Y-%m-%dT%H:%M:%S', '%Y-%m-%d %H:%M:%S', '%a, %d %b %Y %H:%M:%S']:
-                        try:
-                            pub_date = datetime.strptime(post['published'].strip(), fmt)
-                            formatted_date = pub_date.strftime('%Y-%m-%d')
-                            break
-                        except ValueError as e:
-                            continue
-                    else:
-                        # If all parsing attempts fail, try the original method
-                        try:
-                            pub_date = datetime.fromisoformat(post['published'].replace('Z', '+00:00'))
-                            formatted_date = pub_date.strftime('%Y-%m-%d')
-                        except Exception as e:
-                            formatted_date = 'Recent'
-                else:
-                    formatted_date = 'Recent'
-            except:
-                formatted_date = 'Recent'
-            
-            # RSS feed now returns merged titles like "中文标题（English Title）"
-            # Use the RSS title directly — no need for separate gloss mapping
-            display_title = post['title']
-            
-            content += f"- [{display_title}]({post['link']}) - {formatted_date}\n"
-        
-        # Add ellipsis link to see more posts
+            formatted_date = self._parse_date(post.get('published'))
+            content += f"- [{post['display_title']}]({post['link']}) - {formatted_date}\n"
         content += "- [...](https://pi-dal.com/zh/posts)\n"
         content += "<!-- BLOG-POST-LIST:END -->"
         return content
-    
+
     def generate_reading_section(self, posts):
-        """Generate reading posts section"""
         if not posts:
             return "<!-- READING-LIST:START -->\n<!-- No recent reading posts available -->\n<!-- READING-LIST:END -->"
-        
         content = "<!-- READING-LIST:START -->\n"
-        seen_links = set()
         for post in posts:
-            link = post.get('link', '')
-            if link in seen_links:
-                continue
-            seen_links.add(link)
-            # Parse date for better formatting
-            try:
-                if post['published']:
-                    # Try multiple date formats that xlog might use
-                    date_str = post['published']
-                    # Remove timezone info if present and try parsing
-                    date_str = re.sub(r'[+-]\d{2}:?\d{2}$', '', date_str)
-                    date_str = date_str.replace('Z', '')
-                    
-                    # Try different formats
-                    for fmt in ['%a, %d %b %Y %H:%M:%S %Z', '%a, %d %b %Y %H:%M:%S GMT', '%Y-%m-%dT%H:%M:%S', '%Y-%m-%d %H:%M:%S', '%a, %d %b %Y %H:%M:%S']:
-                        try:
-                            pub_date = datetime.strptime(post['published'].strip(), fmt)
-                            formatted_date = pub_date.strftime('%Y-%m-%d')
-                            break
-                        except ValueError as e:
-                            continue
-                    else:
-                        # If all parsing attempts fail, try the original method
-                        try:
-                            pub_date = datetime.fromisoformat(post['published'].replace('Z', '+00:00'))
-                            formatted_date = pub_date.strftime('%Y-%m-%d')
-                        except Exception as e:
-                            formatted_date = 'Recent'
-                else:
-                    formatted_date = 'Recent'
-            except:
-                formatted_date = 'Recent'
-            
-            # RSS feed already returns merged title; use directly
-            content += f"- [{post['title']}]({post['link']}) - {formatted_date}\n"
-        
-        # Add ellipsis link to see more reading notes
+            formatted_date = self._parse_date(post.get('published'))
+            content += f"- [{post['display_title']}]({post['link']}) - {formatted_date}\n"
         content += "- [...](https://pi-dal.com/zh/books)\n"
         content += "<!-- READING-LIST:END -->"
         return content
-    
+
     def update_readme(self):
-        """Update README.md with dynamic content"""
         readme_path = 'README.md'
-        
         try:
             with open(readme_path, 'r', encoding='utf-8') as f:
                 content = f.read()
         except FileNotFoundError:
             print("README.md not found")
             return
-        
-        # Fetch data
+
         blog_posts = self.fetch_blog_posts()
         reading_posts = self.fetch_reading_posts()
-        
-        # Generate sections
+
         blog_section = self.generate_blog_section(blog_posts)
         reading_section = self.generate_reading_section(reading_posts)
-        
-        # Update README content
-        # Replace blog posts section
+
         content = re.sub(
             r'<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->',
-            blog_section,
-            content,
-            flags=re.DOTALL
-        )
-        
-        # Replace reading posts section
+            blog_section, content, flags=re.DOTALL)
         content = re.sub(
             r'<!-- READING-LIST:START -->.*?<!-- READING-LIST:END -->',
-            reading_section,
-            content,
-            flags=re.DOTALL
-        )
-        
-        # Write updated content
+            reading_section, content, flags=re.DOTALL)
+
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(content)
-        
         print("README.md updated successfully!")
 
 if __name__ == "__main__":
-    builder = ProfileBuilder()
-    builder.update_readme()
+    ProfileBuilder().update_readme()
