@@ -26,6 +26,32 @@ class GenerateBlogSectionTests(unittest.TestCase):
         )
         self.assertNotIn("语言入口（Locale Links）", section)
 
+    def test_blog_section_deduplicates_by_link(self):
+        """
+        When upstream RSS feed returns duplicate entries (same link),
+        only the first occurrence should appear in the output.
+        """
+        builder = ProfileBuilder()
+
+        section = builder.generate_blog_section([
+            {
+                "title": "知流",
+                "link": "https://pi-dal.com/zh/posts/knowledge-flow",
+                "published": "2026-06-08T00:00:00",
+                "summary": "test",
+            },
+            {
+                "title": "知流",
+                "link": "https://pi-dal.com/zh/posts/knowledge-flow",
+                "published": "2026-06-08T00:00:00",
+                "summary": "test",
+            },
+        ])
+
+        # knowledge-flow should appear exactly once
+        count = section.count("zh/posts/knowledge-flow")
+        self.assertEqual(count, 1, f"Expected 1 occurrence of link, got {count}")
+
 
 if __name__ == "__main__":
     unittest.main()

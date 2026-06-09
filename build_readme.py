@@ -79,7 +79,12 @@ class ProfileBuilder:
             return "<!-- BLOG-POST-LIST:START -->\n<!-- No recent posts available -->\n<!-- BLOG-POST-LIST:END -->"
 
         content = "<!-- BLOG-POST-LIST:START -->\n"
+        seen_links = set()
         for post in posts:
+            link = post.get('link', '')
+            if link in seen_links:
+                continue
+            seen_links.add(link)
             # Parse date for better formatting
             try:
                 if post['published']:
@@ -126,7 +131,12 @@ class ProfileBuilder:
             return "<!-- READING-LIST:START -->\n<!-- No recent reading posts available -->\n<!-- READING-LIST:END -->"
         
         content = "<!-- READING-LIST:START -->\n"
+        seen_links = set()
         for post in posts:
+            link = post.get('link', '')
+            if link in seen_links:
+                continue
+            seen_links.add(link)
             # Parse date for better formatting
             try:
                 if post['published']:
