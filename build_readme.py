@@ -8,15 +8,6 @@ import feedparser
 from datetime import datetime, timezone
 import json
 
-BLOG_TITLE_GLOSSES = {
-    "2023-Hangzhou-Travelling": "2023 Physics Olympiad Training Trip — Hangzhou",
-    "To-My-16-Year-Old-Self": "To My 16-Year-Old Self",
-    "2022-Hunan-Travelling": "2022 Hunan Journey",
-    "Summary-Of-Junior-High-School-Life": "Summary of Junior High School Life",
-    "How-To-Build-A-RPI-NAS-Server": "Building a Raspberry Pi NAS",
-    "ArozOS-RPI-Tutorial": "ArozOS on Raspberry Pi — A Guide",
-}
-
 class ProfileBuilder:
     def __init__(self):
         self.github_token = os.getenv('GITHUB_TOKEN')
@@ -52,11 +43,6 @@ class ProfileBuilder:
         except Exception as e:
             print(f"Error fetching blog posts: {e}")
             return []
-
-    def extract_slug(self, link):
-        """Extract slug from a post URL"""
-        match = re.search(r'/posts/([^/?#]+)', link or '')
-        return match.group(1) if match else None
     
     def fetch_reading_posts(self, limit=8):
         """Fetch recent reading posts from books RSS feed"""
@@ -86,7 +72,6 @@ class ProfileBuilder:
         except Exception as e:
             print(f"Error fetching reading posts: {e}")
             return []
-    
     
     def generate_blog_section(self, posts):
         """Generate blog posts section"""
@@ -124,18 +109,14 @@ class ProfileBuilder:
             except:
                 formatted_date = 'Recent'
             
-            # Build title with English translation if available.
-            slug = self.extract_slug(post['link'])
-            en_title = BLOG_TITLE_GLOSSES.get(slug)
-            if en_title and en_title != post['title']:
-                display_title = f"{post['title']}（{en_title}）"
-            else:
-                display_title = post['title']
+            # RSS feed now returns merged titles like "中文标题（English Title）"
+            # Use the RSS title directly — no need for separate gloss mapping
+            display_title = post['title']
             
             content += f"- [{display_title}]({post['link']}) - {formatted_date}\n"
         
         # Add ellipsis link to see more posts
-        content += "- [...](https://pi-dal.com/posts)\n"
+        content += "- [...](https://pi-dal.com/zh/posts)\n"
         content += "<!-- BLOG-POST-LIST:END -->"
         return content
     
@@ -175,10 +156,11 @@ class ProfileBuilder:
             except:
                 formatted_date = 'Recent'
             
+            # RSS feed already returns merged title; use directly
             content += f"- [{post['title']}]({post['link']}) - {formatted_date}\n"
         
         # Add ellipsis link to see more reading notes
-        content += "- [...](https://pi-dal.com/books)\n"
+        content += "- [...](https://pi-dal.com/zh/books)\n"
         content += "<!-- READING-LIST:END -->"
         return content
     
