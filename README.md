@@ -17,26 +17,28 @@
 ## 📝 Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [2023年物竞外出培训—杭州行（2023 Physics Olympiad Training Trip — Hangzhou）](https://pi-dal.com/posts/2023-Hangzhou-Travelling) - 2023-07-27
-- [写给16岁的自己（To My 16-Year-Old Self）](https://pi-dal.com/posts/To-My-16-Year-Old-Self) - 2023-04-15
-- [2022湖南之旅（2022 Hunan Journey）](https://pi-dal.com/posts/2022-Hunan-Travelling) - 2022-07-22
-- [初中生活总结（Summary of Junior High School Life）](https://pi-dal.com/posts/Summary-Of-Junior-High-School-Life) - 2022-06-28
-- [树莓派NAS搭建（Building a Raspberry Pi NAS）](https://pi-dal.com/posts/How-To-Build-A-RPI-NAS-Server) - 2022-02-03
-- [树莓派 ArozOS 指北（ArozOS on Raspberry Pi — A Guide）](https://pi-dal.com/posts/ArozOS-RPI-Tutorial) - 2021-10-22
+- [知流](https://pi-dal.com/zh/posts/knowledge-flow) - 2026-06-08
+- [知流](https://pi-dal.com/zh/posts/knowledge-flow) - 2026-06-08
+- [2023年物竞外出培训—杭州行（2023 Physics Olympiad Training Trip — Hangzhou）](https://pi-dal.com/zh/posts/2023-Hangzhou-Travelling) - 2023-07-27
+- [2023年物竞外出培训—杭州行（2023 Physics Olympiad Training Trip — Hangzhou）](https://pi-dal.com/zh/posts/2023-Hangzhou-Travelling) - 2023-07-27
+- [写给16岁的自己（To My 16-Year-Old Self）](https://pi-dal.com/zh/posts/To-My-16-Year-Old-Self) - 2023-04-15
+- [写给16岁的自己（To My 16-Year-Old Self）](https://pi-dal.com/zh/posts/To-My-16-Year-Old-Self) - 2023-04-15
+- [2022湖南之旅（2022 Hunan Journey）](https://pi-dal.com/zh/posts/2022-Hunan-Travelling) - 2022-07-22
+- [2022湖南之旅（2022 Hunan Journey）](https://pi-dal.com/zh/posts/2022-Hunan-Travelling) - 2022-07-22
 - [...](https://pi-dal.com/posts)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📚 Recent Reading Notes
 
 <!-- READING-LIST:START -->
-- [《为什么伟大不能被计划》读书笔记](https://pi-dal.com/books/为什么伟大不能被计划) - 2026-05-23
-- [《六祖坛经（白话版）》读书笔记](https://pi-dal.com/books/六祖坛经-白话版) - 2026-05-19
-- [《从0到1：开启商业与未来的秘密》读书笔记](https://pi-dal.com/books/从0到1-开启商业与未来的秘密) - 2026-05-18
-- [《manual》读书笔记](https://pi-dal.com/books/manual) - 2026-04-29
-- [《上海交通大学生存手册》读书笔记](https://pi-dal.com/books/上海交通大学生存手册) - 2026-04-29
-- [《局外人》读书笔记](https://pi-dal.com/books/局外人) - 2026-03-22
-- [《金刚经：大乘佛教的根本经典，“经中之王”（国学网原版点注，杨增文审定）》读书笔记](https://pi-dal.com/books/金刚经-大乘佛教的根本经典“经中之王”-国学网原版点注杨增文审定) - 2026-03-08
-- [《全世界的水都会重逢》读书笔记](https://pi-dal.com/books/全世界的水都会重逢) - 2026-02-21
+- [《为什么伟大不能被计划》读书笔记](https://pi-dal.com/zh/books/为什么伟大不能被计划) - 2026-05-23
+- [《为什么伟大不能被计划》读书笔记](https://pi-dal.com/zh/books/为什么伟大不能被计划) - 2026-05-23
+- [《六祖坛经（白话版）》读书笔记](https://pi-dal.com/zh/books/六祖坛经-白话版) - 2026-05-19
+- [《六祖坛经（白话版）》读书笔记](https://pi-dal.com/zh/books/六祖坛经-白话版) - 2026-05-19
+- [《从0到1：开启商业与未来的秘密》读书笔记](https://pi-dal.com/zh/books/从0到1-开启商业与未来的秘密) - 2026-05-18
+- [《从0到1：开启商业与未来的秘密》读书笔记](https://pi-dal.com/zh/books/从0到1-开启商业与未来的秘密) - 2026-05-18
+- [《manual》读书笔记](https://pi-dal.com/zh/books/manual) - 2026-04-29
+- [《上海交通大学生存手册》读书笔记](https://pi-dal.com/zh/books/上海交通大学生存手册) - 2026-04-29
 - [...](https://pi-dal.com/books)
 <!-- READING-LIST:END -->
 
