@@ -30,14 +30,14 @@
 ## 📚 Recent Reading Notes
 
 <!-- READING-LIST:START -->
-- [《为什么伟大不能被计划》读书笔记（Why greatness cannot be planned - Reading Notes）](https://pi-dal.com/zh/books/为什么伟大不能被计划) - 2026-05-23
-- [《六祖坛经（白话版）》读书笔记（The Sixth Patriarch's Altar Sutra (vernacular version) - Reading Notes）](https://pi-dal.com/zh/books/六祖坛经-白话版) - 2026-05-19
-- [《从0到1：开启商业与未来的秘密》读书笔记（From 0 to 1: Unlock the secrets of business and the future - Reading Notes）](https://pi-dal.com/zh/books/从0到1-开启商业与未来的秘密) - 2026-05-18
-- [《manual》读书笔记（manual - Reading Notes）](https://pi-dal.com/zh/books/manual) - 2026-04-29
-- [《上海交通大学生存手册》读书笔记（Shanghai Jiao Tong University Survival Manual - Reading Notes）](https://pi-dal.com/zh/books/上海交通大学生存手册) - 2026-04-29
-- [《局外人》读书笔记（outsider - Reading Notes）](https://pi-dal.com/zh/books/局外人) - 2026-03-22
-- [《金刚经：大乘佛教的根本经典，“经中之王”（国学网原版点注，杨增文审定）》读书笔记（Diamond Sutra: The fundamental classic of Mahayana Buddhism, the “King of Sutras” (original annotation by Guoxue.com, approved by Yang Zengwen) - Reading Notes）](https://pi-dal.com/zh/books/金刚经-大乘佛教的根本经典“经中之王”-国学网原版点注杨增文审定) - 2026-03-08
-- [《全世界的水都会重逢》读书笔记（All water in the world will meet again - Reading Notes）](https://pi-dal.com/zh/books/全世界的水都会重逢) - 2026-02-21
+- [《On Being a Researcher》读书笔记](https://pi-dal.com/zh/books/on-being-a-researcher) - 2026-08-05
+- [《心：稻盛和夫的一生嘱托（“稻盛哲学”集大成之作）》读书笔记](https://pi-dal.com/zh/books/xin) - 2026-08-05
+- [《You and Your Research By Richard Hamming》读书笔记](https://pi-dal.com/zh/books/you-and-your-research-by-r) - 2026-08-05
+- [《为什么伟大不能被计划》读书笔记](https://pi-dal.com/zh/books/wei-shen-me-wei-da-bu-neng-bei-ji-hua) - 2026-05-23
+- [《六祖坛经（白话版）》读书笔记](https://pi-dal.com/zh/books/liu-zu-tan-jing) - 2026-05-19
+- [《从0到1：开启商业与未来的秘密》读书笔记](https://pi-dal.com/zh/books/cong-0-dao-1) - 2026-05-18
+- [《manual》读书笔记](https://pi-dal.com/zh/books/manual) - 2026-04-29
+- [《局外人》读书笔记](https://pi-dal.com/zh/books/ju-wai-ren) - 2026-03-22
 - [...](https://pi-dal.com/zh/books)
 <!-- READING-LIST:END -->
 
