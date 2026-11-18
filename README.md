@@ -17,13 +17,14 @@
 ## 📝 Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [小诗二则（Two Small Poems）](https://pi-dal.com/zh/posts/Two-Small-Poems) - 2026-11-17
 - [知流（The Knowledge Flow）](https://pi-dal.com/zh/posts/knowledge-flow) - 2026-06-08
+- [如何用四维矢量来解决狭义相对论问题（电磁学与动力学）（Four-Vectors in Special Relativity — Electromagnetism and Dynamics）](https://pi-dal.com/zh/posts/STR-Four-Vector-Electromagnetism-and-Dynamics) - 2025-10-07
+- [如何用四维矢量来解决狭义相对论问题（基础的时空与碰撞的变换）（Four-Vectors in Special Relativity — Spacetime and Collisions）](https://pi-dal.com/zh/posts/STR-Four-Vector-Basic-Transformation) - 2025-07-20
 - [2023年物竞外出培训—杭州行（2023 Physics Camp in Hangzhou）](https://pi-dal.com/zh/posts/2023-Hangzhou-Travelling) - 2023-07-27
 - [写给16岁的自己（To My 16-Year-Old Self）](https://pi-dal.com/zh/posts/To-My-16-Year-Old-Self) - 2023-04-15
 - [2022湖南之旅（2022 Hunan Journey）](https://pi-dal.com/zh/posts/2022-Hunan-Travelling) - 2022-07-22
 - [初中生活总结（Summary of Junior High School Life）](https://pi-dal.com/zh/posts/Summary-Of-Junior-High-School-Life) - 2022-06-28
-- [树莓派NAS搭建（Building a Raspberry Pi NAS）](https://pi-dal.com/zh/posts/How-To-Build-A-RPI-NAS-Server) - 2022-02-03
-- [树莓派 ArozOS 指北（ArozOS on Raspberry Pi — A Guide）](https://pi-dal.com/zh/posts/ArozOS-RPI-Tutorial) - 2021-10-22
 - [...](https://pi-dal.com/zh/posts)
 <!-- BLOG-POST-LIST:END -->
 
